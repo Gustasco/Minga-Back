@@ -9,7 +9,6 @@ import { __dirname } from "./utils.js";
 import { notFoundHandler } from "./middlewares/notFoundHandler.js";
 import { errorHandler } from "./middlewares/errorHandler.js";
 import indexRouter from "./routes/index.js";
-import "./config/mercadoPago.js";
 
 const app = express();
 
